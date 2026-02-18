@@ -97,7 +97,7 @@ for d in [INPUT_DIR, OUTPUT_DIR, PROCESSING_DIR, QUEUE_DIR, LOGS_DIR, DOWNLOADS_
     d.mkdir(parents=True, exist_ok=True)
 
 CONFIG = {
-    'hf_token': os.environ.get('HF_TOKEN', ''),
+    'hf_token': os.environ.get('HF_TOKEN', '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'),
     'whisper_model': 'base',
     'default_target_lang': 'es',
     'default_voice': 'es-ES-AlvaroNeural',
